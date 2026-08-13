@@ -1,5 +1,8 @@
 {
-  "last_run": "2026-08-13T13:18:53+09:00",
-  "source_url": "http://www.precioushall.com/schedule/",
-  "events": 17
+  "last_run": "2026-08-13T23:46:13+09:00",
+  "sources": {
+    "PRECIOUS HALL": 17,
+    "SOUND CRUE": 7
+  },
+  "total_events": 24
 }

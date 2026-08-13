@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""PRECIOUS HALL (Sapporo) schedule -> iCalendar (.ics) generator.
+"""Sapporo live house schedules -> iCalendar (.ics) generator.
 
-Scrapes the official "Pick Up" schedule page and each event's detail page,
-then writes an ICS file that can be subscribed to in Google Calendar.
+Scrapes the official schedule pages of Sapporo live houses and writes a
+single ICS file that can be subscribed to in Google Calendar.
 
-Source: http://www.precioushall.com/schedule/
+Sources:
+  - PRECIOUS HALL : http://www.precioushall.com/schedule/
+  - SOUND CRUE    : https://soundcrue.com/schedule/
 """
 
 import argparse
@@ -16,14 +18,12 @@ import sys
 import time
 import urllib.request
 
-SCHEDULE_URL = "http://www.precioushall.com/schedule/"
-USER_AGENT = "Mozilla/5.0 (compatible; precioushall-cal/1.0)"
+USER_AGENT = "Mozilla/5.0 (compatible; sapporo-live-cal/1.0)"
 TIMEOUT = 30
-DEFAULT_DURATION = datetime.timedelta(hours=6)
 
-CALNAME = "PRECIOUS HALL Schedule (Sapporo)"
 CALTZ = "Asia/Tokyo"
-LOCATION = "PRECIOUS HALL (Parade B2F, 札幌市中央区南2条西3丁目)"
+CALNAME = "Sapporo Live Schedule"
+CALDESC = "PRECIOUS HALL & SOUND CRUE (Sapporo) latest live schedule"
 
 VTIMEZONE = "\r\n".join([
     "BEGIN:VTIMEZONE",
@@ -36,6 +36,25 @@ VTIMEZONE = "\r\n".join([
     "END:STANDARD",
     "END:VTIMEZONE",
 ])
+
+SOURCES = {
+    "precioushall": {
+        "name": "PRECIOUS HALL",
+        "location": "PRECIOUS HALL (Parade B2F, 札幌市中央区南2条西3丁目)",
+        "uid_domain": "precioushall.com",
+        "default_duration": datetime.timedelta(hours=6),
+        "list_url": "http://www.precioushall.com/schedule/",
+    },
+    "soundcrue": {
+        "name": "SOUND CRUE",
+        "location": "SOUND CRUE (札幌市中央区大通東2丁目15-1-2)",
+        "uid_domain": "soundcrue.com",
+        "default_duration": datetime.timedelta(hours=3),
+        "list_url": "https://soundcrue.com/schedule/",
+    },
+}
+
+SOURCE_ORDER = ["precioushall", "soundcrue"]
 
 
 def fetch_bytes(url: str) -> bytes:
@@ -65,12 +84,14 @@ def strip_tags(s: str) -> str:
     return html.unescape(s)
 
 
-def parse_schedule(html_text: str) -> list:
+# --- PRECIOUS HALL ----------------------------------------------------------
+
+def parse_precioushall_list(text: str) -> list:
     events = []
     for m in re.finditer(
         r'<div class="sp_flyer" id="(?P<dateid>\d{8})">.*?'
         r'<div class="textblock">(?P<body>.*?)</div>\s*</div>',
-        html_text,
+        text,
         re.S,
     ):
         body = m.group("body")
@@ -93,6 +114,7 @@ def parse_schedule(html_text: str) -> list:
             details.append({"label": label, "value": strip_tags(dd)})
 
         events.append({
+            "source": "precioushall",
             "dateid": dateid,
             "year": year,
             "month": month,
@@ -100,16 +122,15 @@ def parse_schedule(html_text: str) -> list:
             "title": title,
             "subtitle": subtitle,
             "details": details,
-            "path": path,
-            "detail_url": SCHEDULE_URL + path,
+            "detail_url": SOURCES["precioushall"]["list_url"] + path,
         })
     return events
 
 
-def parse_detail(html_text: str):
+def parse_precioushall_detail(text: str):
     adm = None
     start_hm = None
-    m = re.search(r'<p class="fee">(.*?)</p>', html_text, re.S)
+    m = re.search(r'<p class="fee">(.*?)</p>', text, re.S)
     if m:
         adm = strip_tags(m.group(1))
         adm = re.split(r"PRECIOUS HALL", adm, flags=re.I)[0].strip()
@@ -117,7 +138,83 @@ def parse_detail(html_text: str):
         tm = re.search(r"(\d{1,2}):(\d{2})", adm)
         if tm:
             start_hm = (int(tm.group(1)), int(tm.group(2)))
-    return adm, start_hm
+    return {"fee": adm, "start_hm": start_hm}
+
+
+# --- SOUND CRUE -------------------------------------------------------------
+
+def parse_soundcrue_list(text: str) -> list:
+    mm = re.search(r'<h2 class="this_month">\s*(\d{4})\.<span>(\d{2})</span>', text)
+    if not mm:
+        return []
+    year, month = int(mm.group(1)), int(mm.group(2))
+
+    events = []
+    for m in re.finditer(r'<li class="schedule_li list_cont">(.*?)</li>', text, re.S):
+        body = m.group(1)
+        am = re.search(r'<a href="([^"]+)">', body)
+        if not am:
+            continue
+        detail_url = am.group(1)
+
+        dm = re.search(r'<p class="schedule_date">\s*(\d{1,2})\s*</p>', body)
+        if not dm:
+            continue
+        day = int(dm.group(1))
+
+        tmm = re.search(r'<p class="schedule_title">(.*?)</p>', body, re.S)
+        title = strip_tags(tmm.group(1)) if tmm else ""
+
+        names = []
+        am2 = re.search(r'<p class="past_act">(.*?)</p>', body, re.S)
+        if am2:
+            for piece in re.split(r"<br\s*/?>", am2.group(1)):
+                piece = strip_tags(piece)
+                if piece:
+                    names.append(piece)
+
+        events.append({
+            "source": "soundcrue",
+            "dateid": "{:04d}{:02d}{:02d}".format(year, month, day),
+            "year": year,
+            "month": month,
+            "day": day,
+            "title": title,
+            "subtitle": None,
+            "details": [{"label": "LINEUP", "value": "\n".join(names)}] if names else [],
+            "detail_url": detail_url,
+        })
+    return events
+
+
+def parse_soundcrue_detail(text: str):
+    fee = None
+    open_hm = None
+    start_hm = None
+    tm = re.search(r'<p class="schedule_time">(.*?)</p>', text, re.S)
+    if tm:
+        time_text = strip_tags(tm.group(1))
+        mt = re.search(
+            r"open\s*(\d{1,2}):(\d{2})\s*/\s*start\s*(\d{1,2}):(\d{2})", time_text)
+        if mt:
+            open_hm = (int(mt.group(1)), int(mt.group(2)))
+            start_hm = (int(mt.group(3)), int(mt.group(4)))
+        else:
+            mo = re.search(r"(\d{1,2}):(\d{2})", time_text)
+            if mo:
+                start_hm = (int(mo.group(1)), int(mo.group(2)))
+    pm = re.search(r'<p class="schedule_price">(.*?)</p>', text, re.S)
+    if pm:
+        fee = strip_tags(pm.group(1))
+    return {"fee": fee, "open_hm": open_hm, "start_hm": start_hm}
+
+
+# --- shared -----------------------------------------------------------------
+
+DETAIL_PARSERS = {
+    "precioushall": parse_precioushall_detail,
+    "soundcrue": parse_soundcrue_detail,
+}
 
 
 def slugify(title: str) -> str:
@@ -138,8 +235,9 @@ def fold(line: str) -> str:
         return line
     parts = []
     i = 0
+    limit = 75
     while i < len(raw):
-        end = min(i + 75, len(raw))
+        end = min(i + limit, len(raw))
         if end < len(raw) and (raw[end] & 0xC0) == 0x80:
             while end > i and (raw[end] & 0xC0) == 0x80:
                 end -= 1
@@ -147,106 +245,130 @@ def fold(line: str) -> str:
             end = i + 1
         parts.append(raw[i:end].decode("utf-8"))
         i = end
-    return "\r\n ".join(parts)
+        limit = 74
+    out = parts[0]
+    for p in parts[1:]:
+        out += "\r\n " + p
+    return out
 
 
 def now_utc() -> str:
     return datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
 
-def build_description(ev: dict, adm, start_hm) -> str:
+def hhmm(hm) -> str:
+    return "{:02d}:{:02d}".format(*hm)
+
+
+def build_description(ev: dict, info: dict) -> str:
     sections = []
     if ev["subtitle"]:
         sections.append("Subtitle: " + ev["subtitle"])
     if ev["details"]:
-        sections.append("LINEUP:\n" + "\n".join(
-            "{}: {}".format(d["label"], d["value"]) for d in ev["details"]))
-    if adm:
-        sections.append("ADM: " + adm)
-    if start_hm:
+        for d in ev["details"]:
+            if "\n" in d["value"]:
+                sections.append("{}:\n{}".format(d["label"], d["value"]))
+            else:
+                sections.append("{}: {}".format(d["label"], d["value"]))
+    if ev.get("fee"):
+        sections.append("TICKET: " + ev["fee"])
+    if ev.get("open_hm"):
+        sections.append("OPEN: " + hhmm(ev["open_hm"]))
+    if ev.get("start_hm"):
         sections.append(
-            "START: {:02d}:{:02d} (end time not published, ~6h assumed)"
-            .format(*start_hm))
+            "START: {} (end time not published, ~{}h assumed)"
+            .format(hhmm(ev["start_hm"]), info["default_duration"].seconds // 3600))
     sections.append("Details: " + ev["detail_url"])
     return "\n\n".join(sections)
 
 
-def build_event(ev: dict, adm, start_hm) -> str:
-    uid = "precioushall-{dateid}-{slug}@precioushall.com".format(
-        dateid=ev["dateid"], slug=slugify(ev["title"]))
+def build_event(ev: dict, info: dict) -> str:
+    uid = "{slug}-{dateid}-{slug2}@{domain}".format(
+        slug=ev["source"], dateid=ev["dateid"], slug2=slugify(ev["title"]),
+        domain=info["uid_domain"])
     d = datetime.date(ev["year"], ev["month"], ev["day"])
-    summary = "{} @ PRECIOUS HALL".format(ev["title"])
+    summary = "{} @ {}".format(ev["title"], info["name"])
 
     lines = ["BEGIN:VEVENT"]
     lines.append("UID:" + uid)
     lines.append("DTSTAMP:" + now_utc())
     lines.append("SUMMARY:" + esc(summary))
-    lines.append("LOCATION:" + esc(LOCATION))
-    if start_hm:
+    lines.append("LOCATION:" + esc(info["location"]))
+    if ev.get("start_hm"):
         start_dt = datetime.datetime(
-            ev["year"], ev["month"], ev["day"], start_hm[0], start_hm[1])
-        end_dt = start_dt + DEFAULT_DURATION
+            ev["year"], ev["month"], ev["day"],
+            ev["start_hm"][0], ev["start_hm"][1])
+        end_dt = start_dt + info["default_duration"]
         lines.append("DTSTART;TZID=Asia/Tokyo:" + start_dt.strftime("%Y%m%dT%H%M%S"))
         lines.append("DTEND;TZID=Asia/Tokyo:" + end_dt.strftime("%Y%m%dT%H%M%S"))
     else:
         lines.append("DTSTART;VALUE=DATE:" + d.strftime("%Y%m%d"))
         lines.append("DTEND;VALUE=DATE:" + (d + datetime.timedelta(days=1)).strftime("%Y%m%d"))
-    lines.append("DESCRIPTION:" + esc(build_description(ev, adm, start_hm)))
+    lines.append("DESCRIPTION:" + esc(build_description(ev, info)))
     lines.append("URL:" + ev["detail_url"])
     lines.append("END:VEVENT")
-    return fold("\r\n".join(lines))
+    return "\r\n".join(fold(ln) for ln in lines)
 
 
 def build_calendar(events: list) -> str:
     header = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//precioushall-calendar//precioushall.com//JA",
+        "PRODID:-//sapporo-live-calendar//sapporo-live//JA",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         "X-WR-CALNAME:" + CALNAME,
-        "X-WR-CALDESC:PRECIOUS HALL (Sapporo) latest live schedule",
+        "X-WR-CALDESC:" + CALDESC,
         "X-WR-TIMEZONE:" + CALTZ,
         VTIMEZONE,
     ]
-    body = [build_event(ev, ev["adm"], ev["start_hm"]) for ev in events]
+    body = [build_event(ev, SOURCES[ev["source"]]) for ev in events]
     parts = header + body + ["END:VCALENDAR", ""]
     return "\r\n".join(parts)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", default="precioushall.ics")
+    parser.add_argument("--output", default="sapporo-live.ics")
     parser.add_argument("--delay", type=float, default=0.2,
                         help="delay in seconds between detail-page requests")
+    parser.add_argument("--source", action="append",
+                        help="only fetch this source (repeatable); default: all")
     args = parser.parse_args()
 
-    try:
-        print("Fetching schedule page: " + SCHEDULE_URL)
-        events = parse_schedule(fetch(SCHEDULE_URL))
-    except Exception as exc:
-        print("ERROR: failed to fetch schedule page: {}".format(exc), file=sys.stderr)
-        return 1
+    selected = args.source or SOURCE_ORDER
+    counts = {}
+    events = []
 
-    if not events:
-        print("ERROR: no events parsed from schedule page", file=sys.stderr)
-        return 1
-
-    seen = set()
-    for ev in events:
-        if ev["dateid"] in seen:
-            continue
-        seen.add(ev["dateid"])
+    for key in selected:
+        if key not in SOURCES:
+            print("ERROR: unknown source '{}'".format(key), file=sys.stderr)
+            return 1
+        info = SOURCES[key]
         try:
-            print("Fetching detail: {}".format(ev["detail_url"]))
-            ev["adm"], ev["start_hm"] = parse_detail(fetch(ev["detail_url"]))
-            time.sleep(args.delay)
+            print("Fetching schedule page: " + info["list_url"])
+            parsed = LIST_PARSERS[key](fetch(info["list_url"]))
         except Exception as exc:
-            print("WARN: failed to fetch detail page {}: {}".format(ev["detail_url"], exc),
+            print("ERROR: failed to fetch {} list page: {}".format(info["name"], exc),
                   file=sys.stderr)
-            ev["adm"], ev["start_hm"] = None, None
+            return 1
 
-    events = [ev for ev in events if ev["dateid"] in seen]
+        seen = set()
+        for ev in parsed:
+            if ev["dateid"] in seen:
+                continue
+            seen.add(ev["dateid"])
+            try:
+                print("Fetching detail: {}".format(ev["detail_url"]))
+                extra = DETAIL_PARSERS[key](fetch(ev["detail_url"]))
+                ev.update(extra)
+                time.sleep(args.delay)
+            except Exception as exc:
+                print("WARN: failed to fetch detail page {}: {}".format(
+                    ev["detail_url"], exc), file=sys.stderr)
+            events.append(ev)
+
+        counts[key] = sum(1 for ev in events if ev["source"] == key)
 
     cal = build_calendar(events)
     with open(args.output, "w", encoding="utf-8", newline="") as fh:
@@ -255,14 +377,21 @@ def main() -> int:
     summary = {
         "last_run": datetime.datetime.now(
             datetime.timezone(datetime.timedelta(hours=9))).isoformat(timespec="seconds"),
-        "source_url": SCHEDULE_URL,
-        "events": len(events),
+        "sources": {SOURCES[k]["name"]: counts[k]
+                    for k in SOURCE_ORDER if k in selected},
+        "total_events": len(events),
     }
     with open("last_run.json", "w", encoding="utf-8") as fh:
         json.dump(summary, fh, ensure_ascii=False, indent=2)
 
     print("Wrote {} events to {}".format(len(events), args.output))
     return 0
+
+
+LIST_PARSERS = {
+    "precioushall": parse_precioushall_list,
+    "soundcrue": parse_soundcrue_list,
+}
 
 
 if __name__ == "__main__":

@@ -1,0 +1,344 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sapporo-live-calendar//sapporo-live//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sapporo Live Schedule
+X-WR-CALDESC:PRECIOUS HALL & SOUND CRUE (Sapporo) latest live schedule
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:precioushall-20260807-idealist@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:IDEALIST @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260807T230000
+DTEND;TZID=Asia/Tokyo:20260808T050000
+DESCRIPTION:GUEST: SUW\n\nMUSIC BY: INO\,M.KANZAKI\n\nTICKET: mb&wf 1500 do
+ or 2000 - 23:00~\n\nSTART: 23:00 (end time not published\, ~6h assumed)\n\
+ nDetails: http://www.precioushall.com/schedule/202608/0807idealist.html
+URL:http://www.precioushall.com/schedule/202608/0807idealist.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260808-texture@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:TEXTURE @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260808T230000
+DTEND;TZID=Asia/Tokyo:20260809T050000
+DESCRIPTION:MUSIC BY: MAL\, KOUHEY\, KATANA\n\nTICKET: MEMBER & W/FLYER 1\,
+ 500 | DOOR 2\,000 - 23:00~\n\nSTART: 23:00 (end time not published\, ~6h a
+ ssumed)\n\nDetails: http://www.precioushall.com/schedule/202608/0808textur
+ e.html
+URL:http://www.precioushall.com/schedule/202608/0808texture.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260809-ballroom@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:Ballroom’ @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260809T190000
+DTEND;TZID=Asia/Tokyo:20260810T010000
+DESCRIPTION:MUSIC BY: ONO\n\nTICKET: MEMBER & W/FLYER 1\,000 | DOOR 1\,500 
+ - 19:00~24:00\n\nSTART: 19:00 (end time not published\, ~6h assumed)\n\nDe
+ tails: http://www.precioushall.com/schedule/202608/0809ballroom.html
+URL:http://www.precioushall.com/schedule/202608/0809ballroom.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260810-material@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:MATERIAL @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260810T210000
+DTEND;TZID=Asia/Tokyo:20260811T030000
+DESCRIPTION:MUSIC BY: MASAYA\, WACCHI\n\nTICKET: MEMBER & W/FLYER 1\,000 | 
+ DOOR 1\,500 - 21:00~\n\nSTART: 21:00 (end time not published\, ~6h assumed
+ )\n\nDetails: http://www.precioushall.com/schedule/202608/0810material.htm
+ l
+URL:http://www.precioushall.com/schedule/202608/0810material.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260813-nix@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:NIX @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260813T210000
+DTEND;TZID=Asia/Tokyo:20260814T030000
+DESCRIPTION:MUSIC BY: MACCHI SIGNAL\n\nTICKET: MEMBER & W/FLYER 1\,000 | DO
+ OR 1\,500 - 21:00~3:00\n\nSTART: 21:00 (end time not published\, ~6h assum
+ ed)\n\nDetails: http://www.precioushall.com/schedule/202608/0813nix.html
+URL:http://www.precioushall.com/schedule/202608/0813nix.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260814-texture@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:TEXTURE @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260814T230000
+DTEND;TZID=Asia/Tokyo:20260815T050000
+DESCRIPTION:MUSIC BY: MAL\, CHANN\, KOUHEY\n\nTICKET: MEMBER & W/FLYER 1\,5
+ 00 | DOOR 2\,000 - 23:00~\n\nSTART: 23:00 (end time not published\, ~6h as
+ sumed)\n\nDetails: http://www.precioushall.com/schedule/202608/0814texture
+ .html
+URL:http://www.precioushall.com/schedule/202608/0814texture.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260815-cloud-9@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:CLOUD 9 @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260815T230000
+DTEND;TZID=Asia/Tokyo:20260816T050000
+DESCRIPTION:MUSIC BY: KANI\n\nTICKET: MEMBER & W/FLYER 1\,500 | DOOR 2\,500
+  - 23:00~\n\nSTART: 23:00 (end time not published\, ~6h assumed)\n\nDetail
+ s: http://www.precioushall.com/schedule/202608/0815cloud9.html
+URL:http://www.precioushall.com/schedule/202608/0815cloud9.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260816-auditory-lounge@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:AUDITORY LOUNGE @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260816T200000
+DTEND;TZID=Asia/Tokyo:20260817T020000
+DESCRIPTION:MUSIC BY: HIRATA\, TSUJI\, UMI\n\nTICKET: MEMBER & W/FLYER 1\,0
+ 00 | DOOR 1\,500 - 20:00~2:00\n\nSTART: 20:00 (end time not published\, ~6
+ h assumed)\n\nDetails: http://www.precioushall.com/schedule/202608/0816aud
+ itorylounge.html
+URL:http://www.precioushall.com/schedule/202608/0816auditorylounge.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260818-auditory-lounge@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:AUDITORY LOUNGE @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260818T200000
+DTEND;TZID=Asia/Tokyo:20260819T020000
+DESCRIPTION:MUSIC BY: IGARASHI\, HIGASHI\, GAKU ISHIDA\n\nTICKET: MEMBER & 
+ W/FLYER 1\,000 | DOOR 1\,500 - 20:00~2:00\n\nSTART: 20:00 (end time not pu
+ blished\, ~6h assumed)\n\nDetails: http://www.precioushall.com/schedule/20
+ 2608/0818auditorylounge.html
+URL:http://www.precioushall.com/schedule/202608/0818auditorylounge.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260820-polan@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:POLAN @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260820T210000
+DTEND;TZID=Asia/Tokyo:20260821T030000
+DESCRIPTION:MUSIC BY: YASU\, TSUJI\n\nTICKET: mb＆wf 1000 door 1500 - 21:0
+ 0~\n\nSTART: 21:00 (end time not published\, ~6h assumed)\n\nDetails: http
+ ://www.precioushall.com/schedule/202608/0820polan.html
+URL:http://www.precioushall.com/schedule/202608/0820polan.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260821-crescendo@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:CRESCENDO @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260821T230000
+DTEND;TZID=Asia/Tokyo:20260822T050000
+DESCRIPTION:MUSIC BY: SHIRATORI\n\nTICKET: MEMBER & W/FLYER 1\,500 | DOOR 2
+ \,000 - 23:00~5\;00\n\nSTART: 23:00 (end time not published\, ~6h assumed)
+ \n\nDetails: http://www.precioushall.com/schedule/202608/0821crescendo.htm
+ l
+URL:http://www.precioushall.com/schedule/202608/0821crescendo.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260822-laid-back-floor-meets-folflore@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:LAID BACK FLOOR meets FOLFLORE @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260822T230000
+DTEND;TZID=Asia/Tokyo:20260823T050000
+DESCRIPTION:MUSIC BY: HIRATA \, DAINU\n\nTICKET: MEMBER & W/FLYER 1\,000 | 
+ DOOR 1\,500 - 23:00~\n\nSTART: 23:00 (end time not published\, ~6h assumed
+ )\n\nDetails: http://www.precioushall.com/schedule/202608/0822lmf.html
+URL:http://www.precioushall.com/schedule/202608/0822lmf.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260823-confusion@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:CONFUSION @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260823T190000
+DTEND;TZID=Asia/Tokyo:20260824T010000
+DESCRIPTION:Subtitle: -Astral Time-\n\nMUSIC BY: KEIJI\, SHU-CHO\, TATSUYA\
+ n\nTICKET: MEMBER & W/FLYER 1\,000 | DOOR 1\,500 - 19:00~24:00\n\nSTART: 1
+ 9:00 (end time not published\, ~6h assumed)\n\nDetails: http://www.preciou
+ shall.com/schedule/202608/0823confusion.html
+URL:http://www.precioushall.com/schedule/202608/0823confusion.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260825-auditory-lounge@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:AUDITORY LOUNGE @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260825T200000
+DTEND;TZID=Asia/Tokyo:20260826T020000
+DESCRIPTION:MUSIC BY: ISHI\, YANO\, KNKN MUSTA LEVY\n\nTICKET: MEMBER & W/F
+ LYER 1\,000 | DOOR 1\,500 - 20:00~2:00\n\nSTART: 20:00 (end time not publi
+ shed\, ~6h assumed)\n\nDetails: http://www.precioushall.com/schedule/20260
+ 8/0825auditorylounge.html
+URL:http://www.precioushall.com/schedule/202608/0825auditorylounge.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260827-version@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:VERSION @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260827T220000
+DTEND;TZID=Asia/Tokyo:20260828T040000
+DESCRIPTION:SELECTOR: YUC\n\nTICKET: TICKET 1\,000 | MEMBER & W/FLYER 1\,50
+ 0 | DOOR 2\,000 - 22:00~\n\nSTART: 22:00 (end time not published\, ~6h ass
+ umed)\n\nDetails: http://www.precioushall.com/schedule/202608/0827version.
+ html
+URL:http://www.precioushall.com/schedule/202608/0827version.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260828-archiv@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:ARCHIV @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260828T230000
+DTEND;TZID=Asia/Tokyo:20260829T050000
+DESCRIPTION:Subtitle: -OPEN TO LAST-\n\nMUSIC BY: OCCA\n\nTICKET: MEMBER & 
+ W/FLYER 2\,500 | DOOR 3\,000 - 23:00~\n\nSTART: 23:00 (end time not publis
+ hed\, ~6h assumed)\n\nDetails: http://www.precioushall.com/schedule/202608
+ /0828archiv.html
+URL:http://www.precioushall.com/schedule/202608/0828archiv.html
+END:VEVENT
+BEGIN:VEVENT
+UID:precioushall-20260829-house-party@precioushall.com
+DTSTAMP:20260813T144613Z
+SUMMARY:HOUSE PARTY @ PRECIOUS HALL
+LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
+DTSTART;TZID=Asia/Tokyo:20260829T230000
+DTEND;TZID=Asia/Tokyo:20260830T050000
+DESCRIPTION:MUSIC BY: ONO\n\nTICKET: MEMBER & W/FLYER 1\,500 | DOOR 2\,500 
+ - 23:00~\n\nSTART: 23:00 (end time not published\, ~6h assumed)\n\nDetails
+ : http://www.precioushall.com/schedule/202608/0829houseparty.html
+URL:http://www.precioushall.com/schedule/202608/0829houseparty.html
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20260801-safari@soundcrue.com
+DTSTAMP:20260813T144613Z
+SUMMARY:“safari” @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20260801T183000
+DTEND;TZID=Asia/Tokyo:20260801T213000
+DESCRIPTION:LINEUP:\nモグラモーメント\nMk-Ⅱ\nNevertheless\nFool F
+ or Fiesta\nSATOU HAYATO BAND\nYukii\n\nTICKET: adv ¥2\,000/door ¥2\,500(
+ +1drink ¥600/高校生ドリンク¥300)\n\nOPEN: 18:00\n\nSTART: 18:30 (
+ end time not published\, ~3h assumed)\n\nDetails: https://soundcrue.com/sc
+ hedule/safari-8/
+URL:https://soundcrue.com/schedule/safari-8/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20260802-jungle@soundcrue.com
+DTSTAMP:20260813T144613Z
+SUMMARY:“jungle” @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20260802T183000
+DTEND;TZID=Asia/Tokyo:20260802T213000
+DESCRIPTION:LINEUP:\nBailey’s\nNeO’s\nRailway Heights\n後神賢太朗\
+ n\nTICKET: adv ¥2\,000/door ¥2\,500(+1drink ¥600/高校生ドリンク
+ ¥300)\n\nOPEN: 18:00\n\nSTART: 18:30 (end time not published\, ~3h assume
+ d)\n\nDetails: https://soundcrue.com/schedule/jungle-4/
+URL:https://soundcrue.com/schedule/jungle-4/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20260809-is-it-music-tour@soundcrue.com
+DTSTAMP:20260813T144613Z
+SUMMARY:「Is it Music? Tour」 @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20260809T183000
+DTEND;TZID=Asia/Tokyo:20260809T213000
+DESCRIPTION:LINEUP: ハシリコミーズ\n\nTICKET: ¥4\,000+1drink ¥600\
+ n\nOPEN: 18:00\n\nSTART: 18:30 (end time not published\, ~3h assumed)\n\nD
+ etails: https://soundcrue.com/schedule/%e3%80%8cis-it-music-tour%e3%80%8d/
+URL:https://soundcrue.com/schedule/%e3%80%8cis-it-music-tour%e3%80%8d/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20260822-2nd-album@soundcrue.com
+DTSTAMP:20260813T144613Z
+SUMMARY:ねこねこさきちゃん 2nd ALBUM「おや死ゅみ」リリー
+ スツアーレコ発 ～画面の向こう側でおや死ゅみつあー
+ ～ @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20260822T183000
+DTEND;TZID=Asia/Tokyo:20260822T213000
+DESCRIPTION:LINEUP:\nねこねこさきちゃん\nベーカリー\nRerainy\
+ n宿無ノ以蔵\n\nTICKET: ¥3\,000+1drink ¥600\n\nOPEN: 17:30\n\nSTART:
+  18:30 (end time not published\, ~3h assumed)\n\nDetails: https://soundcru
+ e.com/schedule/%e3%81%ad%e3%81%93%e3%81%ad%e3%81%93%e3%81%95%e3%81%8d%e3%8
+ 1%a1%e3%82%83%e3%82%93-2nd-album%e3%80%8c%e3%81%8a%e3%82%84%e6%ad%bb%e3%82
+ %85%e3%81%bf%e3%80%8d%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%83%84/
+URL:https://soundcrue.com/schedule/%e3%81%ad%e3%81%93%e3%81%ad%e3%81%93%e3%
+ 81%95%e3%81%8d%e3%81%a1%e3%82%83%e3%82%93-2nd-album%e3%80%8c%e3%81%8a%e3%8
+ 2%84%e6%ad%bb%e3%82%85%e3%81%bf%e3%80%8d%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%
+ b9%e3%83%84/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20260825-release-party-in-sapporo-boy-girl-guitar@soundcrue.c
+ om
+DTSTAMP:20260813T144613Z
+SUMMARY:しんきろうのまちRelease Party in Sapporo “BOY\, GIRL\, GU
+ ITAR” @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20260825T200000
+DTEND;TZID=Asia/Tokyo:20260825T230000
+DESCRIPTION:LINEUP:\nしんきろうのまち\nザ・ヒーローズ\nfor s
+ ibyl\nDischarming Man\n\nTICKET: adv ¥2\,500/door ¥3\,000/大学生以
+ 下 ¥1\,500(+1drink ¥600)\n\nOPEN: 19:30\n\nSTART: 20:00 (end time not p
+ ublished\, ~3h assumed)\n\nDetails: https://soundcrue.com/schedule/%e3%81%
+ 97%e3%82%93%e3%81%8d%e3%82%8d%e3%81%86%e3%81%ae%e3%81%be%e3%81%a1release-p
+ arty-in-sapporo-boy-girl-guitar/
+URL:https://soundcrue.com/schedule/%e3%81%97%e3%82%93%e3%81%8d%e3%82%8d%e3%
+ 81%86%e3%81%ae%e3%81%be%e3%81%a1release-party-in-sapporo-boy-girl-guitar/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20260828-kingons-presents-road-to-11-11-shibuya-club-quattro@
+ soundcrue.com
+DTSTAMP:20260813T144613Z
+SUMMARY:KiNGONS presents “ROAD TO 11.11 SHIBUYA CLUB QUATTRO” @ SOUND C
+ RUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20260828T190000
+DTEND;TZID=Asia/Tokyo:20260828T220000
+DESCRIPTION:LINEUP:\nKiNGONS\nランチブレイク\n\nTICKET: adv ¥4\,000
+ /door ¥4\,500/学割¥2\,000 (+1drink ¥600)\n\nOPEN: 18:30\n\nSTART: 19:
+ 00 (end time not published\, ~3h assumed)\n\nDetails: https://soundcrue.co
+ m/schedule/kingons-presents-road-to-11-11-shibuya-club-quattro-2/
+URL:https://soundcrue.com/schedule/kingons-presents-road-to-11-11-shibuya-c
+ lub-quattro-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20260829-with@soundcrue.com
+DTSTAMP:20260813T144613Z
+SUMMARY:“ラフ with トングバー” @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20260829T160000
+DTEND;TZID=Asia/Tokyo:20260829T190000
+DESCRIPTION:LINEUP:\n誰が何時に歌うかも、誰が何曲歌うかも
+ 決めず、その場の雰囲気やノリでラフに行う催しと、\n
+ 毎夏開催している”トングバー”とのコラボイベント
+ です。\n土曜夕方に、トング氏推薦のドリンクやアコー
+ スティックライブをお楽しみください。\n先着でラフス
+ テッカープレゼント\n\nTICKET: 入場無料/要1ドリンクオー
+ ダー\n\nSTART: 16:00 (end time not published\, ~3h assumed)\n\nDetails: 
+ https://soundcrue.com/schedule/%e3%83%a9%e3%83%95-with-%e3%83%88%e3%83%b3%
+ e3%82%b0%e3%83%90%e3%83%bc/
+URL:https://soundcrue.com/schedule/%e3%83%a9%e3%83%95-with-%e3%83%88%e3%83%
+ b3%e3%82%b0%e3%83%90%e3%83%bc/
+END:VEVENT
+END:VCALENDAR
