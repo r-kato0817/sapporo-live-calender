@@ -16,19 +16,8 @@ TZNAME:JST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:precioushall-20260906-big-fun@precioushall.com
-DTSTAMP:20260908T071132Z
-SUMMARY:BIG FUN @ PRECIOUS HALL
-LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
-DTSTART;VALUE=DATE:20260906
-DTEND;VALUE=DATE:20260907
-DESCRIPTION:Subtitle: Summer Stage Sapporo\n\nDetails: http://www.precioush
- all.com/schedule/http://bigfunsapporo.com/
-URL:http://www.precioushall.com/schedule/http://bigfunsapporo.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:precioushall-20260911-spell@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:SPELL @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260911T230000
@@ -41,7 +30,7 @@ URL:http://www.precioushall.com/schedule/202609/0911spell.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260912-cloud-9@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:CLOUD 9 @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260912T230000
@@ -53,7 +42,7 @@ URL:http://www.precioushall.com/schedule/202609/0912cloud9.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260913-realize@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:REALIZE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260913T190000
@@ -65,7 +54,7 @@ URL:http://www.precioushall.com/schedule/202609/0913realize.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260917-polan@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:POLAN @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260917T220000
@@ -77,7 +66,7 @@ URL:http://www.precioushall.com/schedule/202609/0917pol.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260918-texture@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:TEXTURE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260918T230000
@@ -90,7 +79,7 @@ URL:http://www.precioushall.com/schedule/202609/0918texture.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260919-joy@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:JOY @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260919T230000
@@ -103,7 +92,7 @@ URL:http://www.precioushall.com/schedule/202609/0919joy.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260921-amoeba@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:Amoeba @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260921T210000
@@ -116,7 +105,7 @@ URL:http://www.precioushall.com/schedule/202609/0921amoeba.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260923-autumn-equinox@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:AUTUMN EQUINOX @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260923T200000
@@ -129,7 +118,7 @@ URL:http://www.precioushall.com/schedule/202609/0923autumnequinox.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260924-material@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:MATERIAL @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260924T210000
@@ -142,7 +131,7 @@ URL:http://www.precioushall.com/schedule/202609/0924material.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260925-dubsessioin@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:DUBSESSIOIN @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260925T230000
@@ -155,7 +144,7 @@ URL:http://www.precioushall.com/schedule/202609/0925dubsession.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260926-laid-back-floor-meets-folflore@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:LAID BACK FLOOR meets FOLFLORE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260926T230000
@@ -167,7 +156,7 @@ URL:http://www.precioushall.com/schedule/202609/0926lmf.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20260927-ballroom@precioushall.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:Ballroom’ @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20260927T190000
@@ -179,7 +168,7 @@ URL:http://www.precioushall.com/schedule/202609/0927ballroom.html
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260901-animal@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:“animal” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260901T193000
@@ -192,7 +181,7 @@ URL:https://soundcrue.com/schedule/animal-8/
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260905-one-man-tour-2026-claras@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:雪国 One Man Tour 2026 “claras” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260905T183000
@@ -206,7 +195,7 @@ URL:https://soundcrue.com/schedule/%e9%9b%aa%e5%9b%bd-one-man-tour-2026-cla
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260906-safari@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:“safari” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260906T183000
@@ -221,7 +210,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260912-vol-6-merimeriyeah-1st-full-album-release-tour-extra
  -show-in@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:「仮想敵との最前線 vol.6」merimeriyeah 1st full album rel
  ease tour EXTRA SHOW in 札幌 @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
@@ -239,7 +228,7 @@ URL:https://soundcrue.com/schedule/%e3%80%8c%e4%bb%ae%e6%83%b3%e6%95%b5%e3%
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260913-for-knot@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:“for knot” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260913T183000
@@ -252,7 +241,7 @@ URL:https://soundcrue.com/schedule/for-knot-6/
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260917-event@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:焼くなら飲まナイト @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260917T180000
@@ -266,7 +255,7 @@ URL:https://soundcrue.com/schedule/%e7%84%bc%e3%81%8f%e3%81%aa%e3%82%89%e9%
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260919-live-tour-2026@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:なるみや Live Tour 2026 “夢見行脚” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260919T160000
@@ -280,7 +269,7 @@ URL:https://soundcrue.com/schedule/%e3%81%aa%e3%82%8b%e3%81%bf%e3%82%84-liv
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260920-event@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:“融合” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260920T203000
@@ -296,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260921-ewoks-bed-split-7-inch-release-party-in-hokkaido@sou
  ndcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:Ewoks × bed split 7 inch release party in Hokkaido @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260921T183000
@@ -311,7 +300,7 @@ URL:https://soundcrue.com/schedule/ewoks-x-bed-split-7-inch-release-party-i
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260922-and-presents-day-2@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:ｄａｉｄａｉand おしりはずむ presents 夕涼み会 DAY 
  2 イン札幌 @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
@@ -332,7 +321,7 @@ URL:https://soundcrue.com/schedule/%ef%bd%84%ef%bd%81%ef%bd%89%ef%bd%84%ef%
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260923-3@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:“サンクルフリマ#3” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260923T180000
@@ -348,7 +337,7 @@ URL:https://soundcrue.com/schedule/%e3%82%b5%e3%83%b3%e3%82%af%e3%83%ab%e3%
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20260926-let-it-bivouac@soundcrue.com
-DTSTAMP:20260908T071132Z
+DTSTAMP:20260909T071948Z
 SUMMARY:“Let it bivouac!” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20260926T190000
