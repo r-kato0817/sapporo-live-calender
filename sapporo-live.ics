@@ -17,7 +17,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:precioushall-20261001-version@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:VERSION @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261001T220000
@@ -30,7 +30,7 @@ URL:http://www.precioushall.com/schedule/202610/1001version.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261002-m-o-p-s@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:M.O.P.S. @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261002T213000
@@ -44,7 +44,7 @@ URL:http://www.precioushall.com/schedule/202610/1002mops.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261003-spontaneous@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:Spontaneous @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261003T230000
@@ -57,7 +57,7 @@ URL:http://www.precioushall.com/schedule/202610/1003spontaneous.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261004-confusion-astral-time@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:CONFUSION -astral time- @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261004T190000
@@ -70,7 +70,7 @@ URL:http://www.precioushall.com/schedule/202610/1004confusion.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261008-polan@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:POLAN @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261008T210000
@@ -82,7 +82,7 @@ URL:http://www.precioushall.com/schedule/202610/1008polan.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261009-texture@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:TEXTURE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261009T230000
@@ -95,7 +95,7 @@ URL:http://www.precioushall.com/schedule/202610/1009texture.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261010-cloud9@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:CLOUD9 @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261010T230000
@@ -107,7 +107,7 @@ URL:http://www.precioushall.com/schedule/202610/1010cloud9.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261011-idealist@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:IDEALIST @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261011T230000
@@ -120,7 +120,7 @@ URL:http://www.precioushall.com/schedule/202610/1011idealist.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261012-dada@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:DADA @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261012T190000
@@ -132,7 +132,7 @@ URL:http://www.precioushall.com/schedule/202610/1012dada.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261015-material@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:MATERIAL @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261015T210000
@@ -144,7 +144,7 @@ URL:http://www.precioushall.com/schedule/202610/1015material.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261016-futuristic-classic@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:FUTURISTIC CLASSIC @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261016T230000
@@ -157,7 +157,7 @@ URL:http://www.precioushall.com/schedule/202610/1016futuristicclassic.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261017-laid-back-floor-meets-folflore@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:LAID BACK FLOOR meets FOLFLORE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261017T230000
@@ -169,7 +169,7 @@ URL:http://www.precioushall.com/schedule/202610/1017lmf.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261018-ballroom@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:Ballroom’ @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261018T190000
@@ -181,7 +181,7 @@ URL:http://www.precioushall.com/schedule/202610/1018ballroom.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261020-auditory-lounge@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:AUDITORY LOUNGE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261020T200000
@@ -194,7 +194,7 @@ URL:http://www.precioushall.com/schedule/202610/1020auditorylounge.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261022-version@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:VERSION @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;VALUE=DATE:20261022
@@ -205,7 +205,7 @@ URL:http://www.precioushall.com/schedule/202610/1022version.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261023-n-uma@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:N.UMA @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261023T230000
@@ -218,7 +218,7 @@ URL:http://www.precioushall.com/schedule/202610/1023numa.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261024-joy@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:JOY @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261024T230000
@@ -231,7 +231,7 @@ URL:http://www.precioushall.com/schedule/202610/1024joy.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261026-dub-beyond@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:Dub ＆ Beyond @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261026T200000
@@ -244,7 +244,7 @@ URL:http://www.precioushall.com/schedule/202610/1026dubandbeyond.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261028-auditory-lounge@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:AUDITORY LOUNGE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261028T200000
@@ -257,7 +257,7 @@ URL:http://www.precioushall.com/schedule/202610/1028auditorylounge.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261030-texture@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:TEXTURE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261030T230000
@@ -269,7 +269,7 @@ URL:http://www.precioushall.com/schedule/202610/1030texture.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261031-roots-records@precioushall.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:ROOTS RECORDS @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261031T220000
@@ -282,7 +282,7 @@ URL:http://www.precioushall.com/schedule/202610/1031rootsrecords.html
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261003-animal@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:“animal” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20261003T183500
@@ -297,7 +297,7 @@ URL:https://soundcrue.com/schedule/animal-9/
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261004-jungle@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:“jungle” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20261004T183000
@@ -311,7 +311,7 @@ URL:https://soundcrue.com/schedule/jungle-5/
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261007-event@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:「焼くなら飲まナイト」 @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20261007T180000
@@ -325,7 +325,7 @@ URL:https://soundcrue.com/schedule/%e3%80%8c%e7%84%bc%e3%81%8f%e3%81%aa%e3%
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261010-for-knot@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:“for knot” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20261010T183000
@@ -339,7 +339,7 @@ URL:https://soundcrue.com/schedule/for-knot-7/
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261011-punish-new-bad-tour-2026@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:「PUNISH NEW＆BAD TOUR 2026」 @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20261011T160000
@@ -353,7 +353,7 @@ URL:https://soundcrue.com/schedule/%e3%80%8cpunish-new%ef%bc%86bad-tour-202
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261017-event@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:『沖』 @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20261017T190000
@@ -367,32 +367,36 @@ END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261018-offo-tokyo-live-tour-le-sillage-la-romance-les-secre
  ts@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:Offo tokyo Live Tour Le Sillage · La Romance · Les Secrets @ SOUN
  D CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-DESCRIPTION:LINEUP: Offo tokyo\n\nDetails: https://soundcrue.com/schedule/o
- ffo-tokyo-live-tour-le-sillage-%c2%b7-la-romance-%c2%b7-les-secrets/
+DTSTART;TZID=Asia/Tokyo:20261018T173000
+DTEND;TZID=Asia/Tokyo:20261018T203000
+DESCRIPTION:LINEUP: Offo tokyo\n\nTICKET: adv ¥5\,000/door ¥5\,500(+1drin
+ k ¥600)\n\nOPEN: 17:00\n\nSTART: 17:30 (end time not published\, ~3h assu
+ med)\n\nDetails: https://soundcrue.com/schedule/offo-tokyo-live-tour-le-si
+ llage-%c2%b7-la-romance-%c2%b7-les-secrets/
 URL:https://soundcrue.com/schedule/offo-tokyo-live-tour-le-sillage-%c2%b7-l
  a-romance-%c2%b7-les-secrets/
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261024-from-out-of-nowhere@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:“FROM OUT OF NOWHERE!” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;TZID=Asia/Tokyo:20261024T181500
+DTEND;TZID=Asia/Tokyo:20261024T211500
 DESCRIPTION:LINEUP:\nThe PingPongs (東京)\nfor sibyl\nムミカンソウ\
- nみみバンド\n僕らはハシビロコウ\n\nDetails: https://soundcru
- e.com/schedule/from-out-of-nowhere/
+ nみみバンド\n僕らはハシビロコウ\n\nTICKET: 入場無料 (要
+ 1drinkオーダー)\n\nOPEN: 17:45\n\nSTART: 18:15 (end time not published
+ \, ~3h assumed)\n\nDetails: https://soundcrue.com/schedule/from-out-of-now
+ here/
 URL:https://soundcrue.com/schedule/from-out-of-nowhere/
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261025-echodeck-presents-northern-soul@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:ECHODECK presents「NORTHERN SOUL」 @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20261025T183000
@@ -407,7 +411,7 @@ URL:https://soundcrue.com/schedule/echodeck-presents%e3%80%8cnorthern-soul%
 END:VEVENT
 BEGIN:VEVENT
 UID:soundcrue-20261031-event@soundcrue.com
-DTSTAMP:20261005T085153Z
+DTSTAMP:20261006T085230Z
 SUMMARY:「北海道ってゆー惑星へようこそ!」 @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
 DTSTART;TZID=Asia/Tokyo:20261031T170000
