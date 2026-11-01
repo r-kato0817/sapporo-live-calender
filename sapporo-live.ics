@@ -17,7 +17,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:precioushall-20261031-roots-records@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:ROOTS RECORDS @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261031T220000
@@ -30,7 +30,7 @@ URL:http://www.precioushall.com/schedule/202610/1031rootsrecords.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261101-sun-sun-sun@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:sun sun sun @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261101T200000
@@ -43,7 +43,7 @@ URL:http://www.precioushall.com/schedule/202611/1101sunsunsun.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261102-laya@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:Laya @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261102T230000
@@ -56,7 +56,7 @@ URL:http://www.precioushall.com/schedule/202611/1102laya.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261105-polan@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:POLAN @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261105T210000
@@ -68,7 +68,7 @@ URL:http://www.precioushall.com/schedule/202611/1105polan.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261106-retrospective@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:RETROSPECTIVE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261106T230000
@@ -81,7 +81,7 @@ URL:http://www.precioushall.com/schedule/202611/1106retrospective.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261107-roots@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:ROOTS @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261107T230000
@@ -94,7 +94,7 @@ URL:http://www.precioushall.com/schedule/202611/1107roots.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261108-dancetelia@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:dancetelia @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261108T190000
@@ -106,7 +106,7 @@ URL:http://www.precioushall.com/schedule/202611/1108dancetelia.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261110-double-a-side@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:double a. side @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261110T200000
@@ -119,7 +119,7 @@ URL:http://www.precioushall.com/schedule/202611/1110doubleaside.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261113-signal@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:SIGNAL @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261113T230000
@@ -132,7 +132,7 @@ URL:http://www.precioushall.com/schedule/202611/1113signal.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261114-ballroom@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:Ballroom’ @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261114T230000
@@ -144,7 +144,7 @@ URL:http://www.precioushall.com/schedule/202611/1114ballroom.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261115-exrail-knxwledge@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:exrail × knxwledge @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261115T200000
@@ -158,7 +158,7 @@ URL:http://www.precioushall.com/schedule/202611/1115exrailknxwledge.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261119-material@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:MATERIAL @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261119T210000
@@ -171,7 +171,7 @@ URL:http://www.precioushall.com/schedule/202611/1119material.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261120-dubsession@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:DUBSESSION @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261120T230000
@@ -184,7 +184,7 @@ URL:http://www.precioushall.com/schedule/202611/1120dubsession.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261121-texture@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:TEXTURE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261121T230000
@@ -197,7 +197,7 @@ URL:http://www.precioushall.com/schedule/202611/1121texture.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261122-confusion@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:CONFUSION @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261122T190000
@@ -210,7 +210,7 @@ URL:http://www.precioushall.com/schedule/202611/1122confusion.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261123-auditory-lounge@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:AUDITORY LOUNGE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261123T200000
@@ -223,7 +223,7 @@ URL:http://www.precioushall.com/schedule/202611/112324auditorylounge.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261124-auditory-lounge@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:AUDITORY LOUNGE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261124T200000
@@ -236,7 +236,7 @@ URL:http://www.precioushall.com/schedule/202611/112324auditorylounge.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261126-version@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:VERSION @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261126T220000
@@ -249,7 +249,7 @@ URL:http://www.precioushall.com/schedule/202611/1126version.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261127-medama@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:MEDAMA @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261127T230000
@@ -263,7 +263,7 @@ URL:http://www.precioushall.com/schedule/202611/1127medama.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261128-laid-back-floor-meets-folflore@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:LAID BACK FLOOR meets FOLFLORE @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261128T230000
@@ -275,7 +275,7 @@ URL:http://www.precioushall.com/schedule/202611/1128lmf.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261129-joy@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:JOY @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261129T200000
@@ -288,7 +288,7 @@ URL:http://www.precioushall.com/schedule/202611/1129joy.html
 END:VEVENT
 BEGIN:VEVENT
 UID:precioushall-20261205-electric-circus@precioushall.com
-DTSTAMP:20261031T081848Z
+DTSTAMP:20261101T090207Z
 SUMMARY:ELECTRIC CIRCUS @ PRECIOUS HALL
 LOCATION:PRECIOUS HALL (Parade B2F\, 札幌市中央区南2条西3丁目)
 DTSTART;TZID=Asia/Tokyo:20261205T230000
@@ -300,179 +300,129 @@ DESCRIPTION:MUSIC BY: TAKKYU ISHINO MASARU Abfact / SAMURAI TECH\n\nTICKET:
 URL:http://www.precioushall.com/schedule/202612/1205electriccircus.html
 END:VEVENT
 BEGIN:VEVENT
-UID:soundcrue-20261003-animal@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:“animal” @ SOUND CRUE
+UID:soundcrue-20261101-in@soundcrue.com
+DTSTAMP:20261101T090207Z
+SUMMARY:スプスラッシュ凱旋ツアー in 北海道 @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261003T183500
-DTEND;TZID=Asia/Tokyo:20261003T213500
-DESCRIPTION:LINEUP:\nTwisted Transistor\nDeep\nオートファジー\nUgure
- \nOverCome\nCRISIS OVER\n※都合により月面ジャンクションの
- 出演はキャンセルとなりました\n\nTICKET: adv ¥2\,000/door ¥
- 2\,500(+1drink ¥600/高校生ドリンク¥300)\n\nOPEN: 18:00\n\nSTART: 
- 18:35 (end time not published\, ~3h assumed)\n\nDetails: https://soundcrue
- .com/schedule/animal-9/
-URL:https://soundcrue.com/schedule/animal-9/
+DTSTART;TZID=Asia/Tokyo:20261101T160000
+DTEND;TZID=Asia/Tokyo:20261101T190000
+DESCRIPTION:LINEUP: スプスラッシュ\n\nTICKET: 前方チケット ¥4
+ \,000/一般チケット ¥2\,000 (+1drink ¥600)\n\nOPEN: 15:30\n\nSTART:
+  16:00 (end time not published\, ~3h assumed)\n\nDetails: https://soundcru
+ e.com/schedule/%e3%82%b9%e3%83%97%e3%82%b9%e3%83%a9%e3%83%83%e3%82%b7%e3%8
+ 3%a5%e5%87%b1%e6%97%8b%e3%83%84%e3%82%a2%e3%83%bc-in-%e5%8c%97%e6%b5%b7%e9
+ %81%93/
+URL:https://soundcrue.com/schedule/%e3%82%b9%e3%83%97%e3%82%b9%e3%83%a9%e3%
+ 83%83%e3%82%b7%e3%83%a5%e5%87%b1%e6%97%8b%e3%83%84%e3%82%a2%e3%83%bc-in-%e
+ 5%8c%97%e6%b5%b7%e9%81%93/
 END:VEVENT
 BEGIN:VEVENT
-UID:soundcrue-20261004-jungle@soundcrue.com
-DTSTAMP:20261031T081848Z
+UID:soundcrue-20261103-safari@soundcrue.com
+DTSTAMP:20261101T090207Z
+SUMMARY:“safari” @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20261103T183000
+DTEND;TZID=Asia/Tokyo:20261103T213000
+DESCRIPTION:LINEUP:\nOTO\nThaxi\nElaine\nスーパーサマー・マン\n
+ エイセツノサイ\nザ・明るい島\n\nTICKET: adv ¥2\,000/door ¥2
+ \,500(+1drink ¥600/高校生ドリンク¥300)\n\nOPEN: 18:00\n\nSTART: 1
+ 8:30 (end time not published\, ~3h assumed)\n\nDetails: https://soundcrue.
+ com/schedule/safari-10/
+URL:https://soundcrue.com/schedule/safari-10/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20261107-event@soundcrue.com
+DTSTAMP:20261101T090207Z
+SUMMARY:北大軽音 秋の定期演奏会 @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20261107T173000
+DTEND;TZID=Asia/Tokyo:20261107T203000
+DESCRIPTION:LINEUP:\nSuper Good Mornigs\npaper prayer\nソノナモ\nwillow
+ s\nmaple gin house\n\nTICKET: ¥1\,000+1drink ¥600\n\nOPEN: 17:00\n\nSTAR
+ T: 17:30 (end time not published\, ~3h assumed)\n\nDetails: https://soundc
+ rue.com/schedule/%e5%8c%97%e5%a4%a7%e8%bb%bd%e9%9f%b3-%e7%a7%8b%e3%81%ae%e
+ 5%ae%9a%e6%9c%9f%e6%bc%94%e5%a5%8f%e4%bc%9a-2/
+URL:https://soundcrue.com/schedule/%e5%8c%97%e5%a4%a7%e8%bb%bd%e9%9f%b3-%e7
+ %a7%8b%e3%81%ae%e5%ae%9a%e6%9c%9f%e6%bc%94%e5%a5%8f%e4%bc%9a-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20261108-risky-melody-the-world-release-tour-in-hokkaido@soun
+ dcrue.com
+DTSTAMP:20261101T090207Z
+SUMMARY:Risky Melody『THE WORLD』Release Tour in HOKKAIDO @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20261108T143000
+DTEND;TZID=Asia/Tokyo:20261108T173000
+DESCRIPTION:LINEUP:\nRisky Melody / FullMooN / Illumina from ArkRoyal / RAI
+ DEN feat.Risky Melody\nEmpress / HONEYBEE / Sirius 他\n\nTICKET: adv ¥3\
+ ,500/door ¥4\,000(+1drink ¥600)\n\nOPEN: 14:00\n\nSTART: 14:30 (end time
+  not published\, ~3h assumed)\n\nDetails: https://soundcrue.com/schedule/r
+ isky-melody%e3%80%8ethe-world%e3%80%8frelease-tour-in-hokkaido/
+URL:https://soundcrue.com/schedule/risky-melody%e3%80%8ethe-world%e3%80%8fr
+ elease-tour-in-hokkaido/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20261112-4@soundcrue.com
+DTSTAMP:20261101T090207Z
+SUMMARY:“サンクルフリマ#4” @ SOUND CRUE
+LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
+DTSTART;TZID=Asia/Tokyo:20261112T190000
+DTEND;TZID=Asia/Tokyo:20261112T220000
+DESCRIPTION:LINEUP:\nSOUND CRUEバースペース、楽屋スペースを
+ 使ったフリーマーケットです。\n出店希望も随時受付て
+ います。\n\nTICKET: 入場無料(要1ドリンクオーダー)\n\nSTAR
+ T: 19:00 (end time not published\, ~3h assumed)\n\nDetails: https://soundc
+ rue.com/schedule/%e3%82%b5%e3%83%b3%e3%82%af%e3%83%ab%e3%83%95%e3%83%aa%e3
+ %83%9e4/
+URL:https://soundcrue.com/schedule/%e3%82%b5%e3%83%b3%e3%82%af%e3%83%ab%e3%
+ 83%95%e3%83%aa%e3%83%9e4/
+END:VEVENT
+BEGIN:VEVENT
+UID:soundcrue-20261123-jungle@soundcrue.com
+DTSTAMP:20261101T090207Z
 SUMMARY:“jungle” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261004T183000
-DTEND;TZID=Asia/Tokyo:20261004T213000
-DESCRIPTION:LINEUP:\nモグラモーメント\nSuper Good Mornings\nCREW\ns
- kyparker\n※都合によりWestern fictionの出演はキャンセルと
- なりました。\n\nTICKET: adv ¥2\,000/door ¥2\,500(+1drink ¥600/高
- 校生ドリンク¥300)\n\nOPEN: 18:00\n\nSTART: 18:30 (end time not publ
- ished\, ~3h assumed)\n\nDetails: https://soundcrue.com/schedule/jungle-5/
-URL:https://soundcrue.com/schedule/jungle-5/
+DTSTART;TZID=Asia/Tokyo:20261123T183000
+DTEND;TZID=Asia/Tokyo:20261123T213000
+DESCRIPTION:LINEUP:\nサポニカ\nMk-Ⅱ\nSuperJaded.\nときさめ\nPawn\
+ n\nTICKET: adv ¥2\,000/door ¥2\,500(+1drink ¥600/高校生ドリンク
+ ¥300)\n\nOPEN: 18:00\n\nSTART: 18:30 (end time not published\, ~3h assume
+ d)\n\nDetails: https://soundcrue.com/schedule/jungle-6/
+URL:https://soundcrue.com/schedule/jungle-6/
 END:VEVENT
 BEGIN:VEVENT
-UID:soundcrue-20261007-event@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:「焼くなら飲まナイト」 @ SOUND CRUE
+UID:soundcrue-20261127-bugy-craxone-2026-winter-oneman-show@soundcrue.com
+DTSTAMP:20261101T090207Z
+SUMMARY:BUGY CRAXONE 2026 winter oneman show “わたしたちをよろし
+ く” @ SOUND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261007T180000
-DTEND;TZID=Asia/Tokyo:20261007T210000
-DESCRIPTION:LINEUP: 店長お手製の室蘭やきとりをメインとし
- たバー営業です\n\nSTART: 18:00 (end time not published\, ~3h assume
- d)\n\nDetails: https://soundcrue.com/schedule/%e3%80%8c%e7%84%bc%e3%81%8f%
- e3%81%aa%e3%82%89%e9%a3%b2%e3%81%be%e3%83%8a%e3%82%a4%e3%83%88%e3%80%8d/
-URL:https://soundcrue.com/schedule/%e3%80%8c%e7%84%bc%e3%81%8f%e3%81%aa%e3%
- 82%89%e9%a3%b2%e3%81%be%e3%83%8a%e3%82%a4%e3%83%88%e3%80%8d/
+DTSTART;TZID=Asia/Tokyo:20261127T193000
+DTEND;TZID=Asia/Tokyo:20261127T223000
+DESCRIPTION:LINEUP: BUGY CRAXONE\n\nTICKET: adv ¥4\,000/door ¥4\,500/学
+ 割 ¥1\,000 (+1drink ¥600)\n\nOPEN: 19:00\n\nSTART: 19:30 (end time not 
+ published\, ~3h assumed)\n\nDetails: https://soundcrue.com/schedule/bugy-c
+ raxone-2026-winter-oneman-show-%e3%82%8f%e3%81%9f%e3%81%97%e3%81%9f%e3%81%
+ a1%e3%82%92%e3%82%88%e3%82%8d%e3%81%97%e3%81%8f/
+URL:https://soundcrue.com/schedule/bugy-craxone-2026-winter-oneman-show-%e3
+ %82%8f%e3%81%9f%e3%81%97%e3%81%9f%e3%81%a1%e3%82%92%e3%82%88%e3%82%8d%e3%8
+ 1%97%e3%81%8f/
 END:VEVENT
 BEGIN:VEVENT
-UID:soundcrue-20261010-for-knot@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:“for knot” @ SOUND CRUE
+UID:soundcrue-20261128-live-album-release-tour@soundcrue.com
+DTSTAMP:20261101T090207Z
+SUMMARY:「少しは社会に馴染めたか」Live Album Release Tour @ SO
+ UND CRUE
 LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261010T183000
-DTEND;TZID=Asia/Tokyo:20261010T213000
-DESCRIPTION:LINEUP:\nMildred parrot\noboro\nFool For Fiesta\nお願いジ
- ョンソン聴いてくれ\n\nTICKET: adv ¥2\,000/door ¥2\,500(+1drink 
- ¥600/高校生ドリンク¥300)\n\nOPEN: 18:00\n\nSTART: 18:30 (end time
-  not published\, ~3h assumed)\n\nDetails: https://soundcrue.com/schedule/f
- or-knot-7/
-URL:https://soundcrue.com/schedule/for-knot-7/
-END:VEVENT
-BEGIN:VEVENT
-UID:soundcrue-20261011-punish-new-bad-tour-2026@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:「PUNISH NEW＆BAD TOUR 2026」 @ SOUND CRUE
-LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261011T160000
-DTEND;TZID=Asia/Tokyo:20261011T190000
-DESCRIPTION:LINEUP: PUNISH\n\nTICKET: adv ¥6\,000/door ¥6\,500(+1drink ¥
- 600)\n\nOPEN: 15:30\n\nSTART: 16:00 (end time not published\, ~3h assumed)
- \n\nDetails: https://soundcrue.com/schedule/%e3%80%8cpunish-new%ef%bc%86ba
- d-tour-2026%e3%80%8d/
-URL:https://soundcrue.com/schedule/%e3%80%8cpunish-new%ef%bc%86bad-tour-202
- 6%e3%80%8d/
-END:VEVENT
-BEGIN:VEVENT
-UID:soundcrue-20261012-event@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:“おんど食堂の日” @ SOUND CRUE
-LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261012T150000
-DTEND;TZID=Asia/Tokyo:20261012T180000
-DESCRIPTION:TICKET: 入場無料(要1ドリンク&フードオーダー)\n\
- nSTART: 15:00 (end time not published\, ~3h assumed)\n\nDetails: https://s
- oundcrue.com/schedule/%e3%81%8a%e3%82%93%e3%81%a9%e9%a3%9f%e5%a0%82%e3%81%
- ae%e6%97%a5/
-URL:https://soundcrue.com/schedule/%e3%81%8a%e3%82%93%e3%81%a9%e9%a3%9f%e5%
- a0%82%e3%81%ae%e6%97%a5/
-END:VEVENT
-BEGIN:VEVENT
-UID:soundcrue-20261017-event@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:『沖』 @ SOUND CRUE
-LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261017T190000
-DTEND;TZID=Asia/Tokyo:20261017T220000
-DESCRIPTION:LINEUP:\nnessie\nmmm\n\nTICKET: Entrance ¥2\,900/U-25 ¥1\,900
- (+1drink ¥600)\n\nOPEN: 18:30\n\nSTART: 19:00 (end time not published\, ~
- 3h assumed)\n\nDetails: https://soundcrue.com/schedule/%e3%80%8e%e6%b2%96%
- e3%80%8f/
-URL:https://soundcrue.com/schedule/%e3%80%8e%e6%b2%96%e3%80%8f/
-END:VEVENT
-BEGIN:VEVENT
-UID:soundcrue-20261018-offo-tokyo-live-tour-le-sillage-la-romance-les-secre
- ts@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:Offo tokyo Live Tour Le Sillage · La Romance · Les Secrets @ SOUN
- D CRUE
-LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261018T173000
-DTEND;TZID=Asia/Tokyo:20261018T203000
-DESCRIPTION:LINEUP: Offo tokyo\n\nTICKET: adv ¥5\,000/door ¥5\,500(+1drin
- k ¥600)\n\nOPEN: 17:00\n\nSTART: 17:30 (end time not published\, ~3h assu
- med)\n\nDetails: https://soundcrue.com/schedule/offo-tokyo-live-tour-le-si
- llage-%c2%b7-la-romance-%c2%b7-les-secrets/
-URL:https://soundcrue.com/schedule/offo-tokyo-live-tour-le-sillage-%c2%b7-l
- a-romance-%c2%b7-les-secrets/
-END:VEVENT
-BEGIN:VEVENT
-UID:soundcrue-20261024-from-out-of-nowhere@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:“FROM OUT OF NOWHERE!” @ SOUND CRUE
-LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261024T181500
-DTEND;TZID=Asia/Tokyo:20261024T211500
-DESCRIPTION:LINEUP:\nThe PingPongs (東京)\nfor sibyl\nムミカンソウ\
- nみみバンド\n僕らはハシビロコウ\n\nTICKET: 入場無料 (要
- 1drinkオーダー)\n\nOPEN: 17:45\n\nSTART: 18:15 (end time not published
- \, ~3h assumed)\n\nDetails: https://soundcrue.com/schedule/from-out-of-now
- here/
-URL:https://soundcrue.com/schedule/from-out-of-nowhere/
-END:VEVENT
-BEGIN:VEVENT
-UID:soundcrue-20261025-echodeck-presents-northern-soul@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:ECHODECK presents「NORTHERN SOUL」 @ SOUND CRUE
-LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261025T183000
-DTEND;TZID=Asia/Tokyo:20261025T213000
-DESCRIPTION:LINEUP:\nwilberry(東京)\nECHODECK\nThe Chillax\nFlagship Cher
- ry\nReeE with\n\nTICKET: adv ¥2\,500/door ¥ 3\,000 (+1drink ¥600)\n\nOP
- EN: 18:00\n\nSTART: 18:30 (end time not published\, ~3h assumed)\n\nDetail
- s: https://soundcrue.com/schedule/echodeck-presents%e3%80%8cnorthern-soul%
- e3%80%8d/
-URL:https://soundcrue.com/schedule/echodeck-presents%e3%80%8cnorthern-soul%
- e3%80%8d/
-END:VEVENT
-BEGIN:VEVENT
-UID:soundcrue-20261029-event@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:“ラフ” @ SOUND CRUE
-LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261029T190000
-DTEND;TZID=Asia/Tokyo:20261029T220000
-DESCRIPTION:LINEUP:\n誰が何時に歌うかも、誰が何曲歌うかも
- 決めず、その場の雰囲気やノリでラフに行う催しです
- 。\n秋の夜長に、アコースティックライブをお楽しみく
- ださい。\n先着でラフステッカープレゼント\n\nTICKET: 入
- 場無料\n\nSTART: 19:00 (end time not published\, ~3h assumed)\n\nDetail
- s: https://soundcrue.com/schedule/%e3%83%a9%e3%83%95-8/
-URL:https://soundcrue.com/schedule/%e3%83%a9%e3%83%95-8/
-END:VEVENT
-BEGIN:VEVENT
-UID:soundcrue-20261031-event@soundcrue.com
-DTSTAMP:20261031T081848Z
-SUMMARY:「北海道ってゆー惑星へようこそ!」 @ SOUND CRUE
-LOCATION:SOUND CRUE (札幌市中央区大通東2丁目15-1-2)
-DTSTART;TZID=Asia/Tokyo:20261031T170000
-DTEND;TZID=Asia/Tokyo:20261031T200000
-DESCRIPTION:LINEUP:\n人畜乱弹 (東京) / ザ ニンクス (柏) / 死
- 亡萌&狼流\nチワワキック / まいご′ / Last to think / カメ
- レオン7\n\nTICKET: 入場無料(要1drink料金 ¥600)\n\nOPEN: 16:30\n
- \nSTART: 17:00 (end time not published\, ~3h assumed)\n\nDetails: https://
- soundcrue.com/schedule/%e3%80%8c%e5%8c%97%e6%b5%b7%e9%81%93%e3%81%a3%e3%81
- %a6%e3%82%86%e3%83%bc%e6%83%91%e6%98%9f%e3%81%b8%e3%82%88%e3%81%86%e3%81%9
- 3%e3%81%9d%e3%80%8d/
-URL:https://soundcrue.com/schedule/%e3%80%8c%e5%8c%97%e6%b5%b7%e9%81%93%e3%
- 81%a3%e3%81%a6%e3%82%86%e3%83%bc%e6%83%91%e6%98%9f%e3%81%b8%e3%82%88%e3%81
- %86%e3%81%93%e3%81%9d%e3%80%8d/
+DTSTART;TZID=Asia/Tokyo:20261128T183000
+DTEND;TZID=Asia/Tokyo:20261128T213000
+DESCRIPTION:LINEUP:\n天国注射\n天国旅行\n乙女絵画\nDVDVD\n\nTIC
+ KET: adv ¥3\,000/door ¥3\,500/U23 ¥2\,500 (+1drink ¥600)\n\nOPEN: 18:0
+ 0\n\nSTART: 18:30 (end time not published\, ~3h assumed)\n\nDetails: https
+ ://soundcrue.com/schedule/%e3%80%8c%e5%b0%91%e3%81%97%e3%81%af%e7%a4%be%e4
+ %bc%9a%e3%81%ab%e9%a6%b4%e6%9f%93%e3%82%81%e3%81%9f%e3%81%8b%e3%80%8dlive-
+ album-release-tour/
+URL:https://soundcrue.com/schedule/%e3%80%8c%e5%b0%91%e3%81%97%e3%81%af%e7%
+ a4%be%e4%bc%9a%e3%81%ab%e9%a6%b4%e6%9f%93%e3%82%81%e3%81%9f%e3%81%8b%e3%80
+ %8dlive-album-release-tour/
 END:VEVENT
 END:VCALENDAR
